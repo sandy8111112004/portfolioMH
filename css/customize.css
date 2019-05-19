@@ -1,0 +1,94 @@
+.personal_text h3{
+    font-size: 30px;
+    
+}
+
+.cus-welcome-box2{
+    width: 99%;
+    margin: 0 auto;
+}
+
+.cus-welcome-text{
+    width:99%;
+    margin: 0 auto;
+}
+
+.welcome_text p {
+    max-width: 750px;
+}
+
+
+/*****************************************/
+
+.cus-text-center{
+    text-align: center;
+}
+
+.cus-footer-text-xs{
+    font-size: 8px;
+}
+
+.cus-margin-top-xs{
+    margin-top: 50px;
+}
+
+.cus-margin-bottom-big{margin-bottom: 2rem;}
+
+.cus-lightBold{font-weight: 400}
+
+.lightBold{
+    font-weight: 700;
+}
+
+ul.dashList{
+    margin-left: 15px;
+    list-style-type: none;
+}
+ul.dashList>li{
+    text-indent: -15px;
+}
+ul.dashList>li:before{
+    content: '-- ';
+}
+p, li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+/*******************************************/
+
+.cus-mytabs-time{
+    min-width: 11rem;
+    text-align: right;
+}
+
+.cus-header-logo{
+    width: 15rem;
+}
+
+
+
+/*publication section*/
+.section-publication{
+    width: 100%;
+}
+
+.section-publication h2{
+    font-size: 2rem;
+}
+
+.section-publication .cus-pub-box1{
+    padding: 2rem 4rem;
+} 
+
+/************************************/
+
+
+
+
+
+@media (max-width:600px){
+    .cus-mytabs-time{
+        text-align: left;
+    }
+}
