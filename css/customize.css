@@ -1,0 +1,30 @@
+.personal_text h3{
+    font-size: 30px;
+    
+}
+
+.cus-welcome-box2{
+    width: 99%;
+    margin: 0 auto;
+}
+
+.cus-welcome-text{
+    width:99%;
+    margin: 0 auto;
+}
+
+.welcome_text p {
+    max-width: 750px;
+}
+
+.cus-text-center{
+    text-align: center;
+}
+
+.cus-footer-text-xs{
+    font-size: 8px;
+}
+
+.cus-margin-top-xs{
+    margin-top: 50px;
+}
