@@ -29,7 +29,15 @@
 }
 
 .cus-margin-top-xs{
-    margin-top: 50px;
+    margin-top: 1rem;
+}
+
+.cus-text-underline{
+    text-decoration: underline;
+}
+
+.cus-text-italic{
+    font-style:italic; 
 }
 
 .cus-margin-bottom-big{margin-bottom: 2rem;}
@@ -50,9 +58,13 @@ ul.dashList>li{
 ul.dashList>li:before{
     content: '-- ';
 }
-p, li{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+.section-publication p, .section-publication li{
+    
+    font-size: 1rem;
+}
+
+.section-publication li{
+    margin-bottom: 1rem;
 }
 
 /*******************************************/
@@ -77,6 +89,12 @@ p, li{
     font-size: 2rem;
 }
 
+.cus-pub-h3{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+
 .section-publication .cus-pub-box1{
     padding: 2rem 4rem;
 } 
@@ -90,5 +108,17 @@ p, li{
 @media (max-width:600px){
     .cus-mytabs-time{
         text-align: left;
+    }
+
+    .section-publication h2{
+        font-size: 1.8rem;
+    }
+    
+    .cus-pub-h3{
+        font-size: 1.6rem;
+    }
+    .section-publication p, .section-publication li{
+    
+        font-size: .8rem;
     }
 }
