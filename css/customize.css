@@ -25,7 +25,7 @@
 }
 
 .cus-footer-text-xs{
-    font-size: 8px;
+    font-size: 12px;
 }
 
 .cus-margin-top-xs{
@@ -103,9 +103,29 @@ ul.dashList>li:before{
 
 
 
+.tabs_inner .tab-content .tab-pane .list {
+    max-width: 800px;
+}
+
+.tabs_inner .tab-content .tab-pane .list:before {
+    left:27%;
+}
+
+.tabs_inner .tab-content .tab-pane .list li span {
+    left:27%;
+}
 
 
-@media (max-width:600px){
+
+
+/***************Research***************/
+
+
+
+/**********************************/
+
+
+@media (max-width:900px){
     .cus-mytabs-time{
         text-align: left;
     }
@@ -120,5 +140,21 @@ ul.dashList>li:before{
     .section-publication p, .section-publication li{
     
         font-size: .8rem;
+    }
+
+
+    .tabs_inner .tab-content .tab-pane .list {
+        max-width: 464px;
+    }
+    
+    .tabs_inner .tab-content .tab-pane .list:before {
+        left:46%;
+    }
+    
+    .tabs_inner .tab-content .tab-pane .list li span {
+        left:46%;
+    }
+    .cus-desktop{
+        display: none;
     }
 }
