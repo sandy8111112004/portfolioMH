@@ -106,6 +106,38 @@ ul.dashList>li:before{
 
 /************************************/
 
+/*Honors*/
+.cus-honor-h3{
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+.cus-honor-box1{
+    padding: 2rem 4rem;
+}
+
+.cus-honor-box{
+    width: 100%;
+    padding: 0.5rem 1rem;  
+    border-bottom: 2px solid  rgba(0,0,0, .5);
+    margin-bottom: 0.5rem  
+}
+
+.cus-honor-box p{
+    text-align: center;
+}
+
+.cus-honor-box-img{
+    text-align: center;
+}
+
+.cus-honor-box-img img{
+    width: 60%;
+    margin: 1rem;
+}
+/***************************************/
 
 
 .tabs_inner .tab-content .tab-pane .list {
@@ -142,11 +174,15 @@ ul.dashList>li:before{
     .cus-pub-h3{
         font-size: 1.6rem;
     }
+
     .section-publication p, .section-publication li{
     
         font-size: .8rem;
     }
 
+    .cus-honor-h3{
+        font-size: 1.6rem;
+    }
 
     .tabs_inner .tab-content .tab-pane .list {
         max-width: 464px;
@@ -163,3 +199,24 @@ ul.dashList>li:before{
         display: none;
     }
 }
+
+@media only screen and (max-width: 600px) { 
+    .cus-honor-box1{
+        padding: 0.5rem 0;
+    }
+
+    .cus-honor-h3{
+        font-size: 1.2rem;
+    }
+
+    .cus-honor-box{
+        width: 100%;
+        padding: 0.5rem 0;  
+        
+    }
+    
+    .cus-margin-bottom-big{
+        margin-bottom: 1rem;
+    }
+}
+
