@@ -11,6 +11,7 @@
 .cus-welcome-text{
     width:99%;
     margin: 0 auto;
+    text-align: justify;
 }
 
 .welcome_text p {
