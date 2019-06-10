@@ -18,6 +18,10 @@
     max-width: 750px;
 }
 
+.cus-perconal_social{
+   color: #298cdf;
+}
+
 
 /*****************************************/
 
@@ -88,8 +92,12 @@ ul.dashList>li:before{
 }
 
 .cus-section-pub-width{
-    width: 98%;
+    width: 95%;
     margin: 0 auto;
+    color: #222222;
+    vertical-align: middle;
+    align-self: center;
+    text-align: left;
 }
 .section-publication h2{
     font-size: 2rem;
@@ -102,7 +110,7 @@ ul.dashList>li:before{
 
 
 .section-publication .cus-pub-box1{
-    padding: 2rem 4rem;
+    padding: 1rem 0rem;
 } 
 
 /************************************/
@@ -116,7 +124,7 @@ ul.dashList>li:before{
 }
 
 .cus-honor-box1{
-    padding: 2rem 4rem;
+    padding: 1rem 0rem;
 }
 
 .cus-honor-box{
@@ -166,7 +174,7 @@ ul.dashList>li:before{
 /**********************************/
 
 
-@media (max-width:900px){
+@media (max-width:1000px){
     .cus-mytabs-time{
         text-align: left;
     }
