@@ -66,6 +66,7 @@ ul.dashList>li:before{
 
 .section-publication li{
     margin-bottom: 1rem;
+    text-align: justify;
 }
 
 /*******************************************/
