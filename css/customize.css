@@ -66,6 +66,7 @@ ul.dashList>li:before{
 
 .section-publication li{
     margin-bottom: 1rem;
+    text-align: justify;
 }
 
 /*******************************************/
@@ -108,7 +109,7 @@ ul.dashList>li:before{
 
 /*Honors*/
 .cus-honor-h3{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
     
@@ -120,9 +121,9 @@ ul.dashList>li:before{
 
 .cus-honor-box{
     width: 100%;
-    padding: 0.5rem 1rem;  
+    padding: 1rem 1rem;  
     border-bottom: 2px solid  rgba(0,0,0, .5);
-    margin-bottom: 0.5rem  
+    margin-bottom: 1rem  
 }
 
 .cus-honor-box p{
@@ -134,8 +135,11 @@ ul.dashList>li:before{
 }
 
 .cus-honor-box-img img{
-    width: 60%;
-    margin: 1rem;
+    width: 45%;
+    display: inline-block;
+    margin: 0.5rem;
+    max-height: 20rem;
+    object-fit: cover;
 }
 /***************************************/
 
@@ -167,21 +171,37 @@ ul.dashList>li:before{
         text-align: left;
     }
 
+    .cus-honor-box1{
+        padding: 0.5rem 0;
+    }
+
+    .section-publication .cus-pub-box1{
+        padding: 1rem 0;
+    } 
+
     .section-publication h2{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
     
     .cus-pub-h3{
-        font-size: 1.6rem;
+        font-size: 1.3rem;
     }
 
     .section-publication p, .section-publication li{
     
         font-size: .8rem;
     }
+    
+    .section-publication li{
+        margin-bottom: .8rem;
+    }
+
+    .section-publication h2{
+        font-size: 1.5rem;
+    }
 
     .cus-honor-h3{
-        font-size: 1.6rem;
+        font-size: 1.3rem;
     }
 
     .tabs_inner .tab-content .tab-pane .list {
@@ -202,11 +222,11 @@ ul.dashList>li:before{
 
 @media only screen and (max-width: 600px) { 
     .cus-honor-box1{
-        padding: 0.5rem 0;
+        padding: 0.2rem 0;
     }
 
     .cus-honor-h3{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .cus-honor-box{
@@ -218,5 +238,14 @@ ul.dashList>li:before{
     .cus-margin-bottom-big{
         margin-bottom: 1rem;
     }
+
+    .cus-pub-h3{
+        font-size: 1rem;
+    }
+
+    .section-publication h2{
+        font-size: 1.3rem;
+    }
+
 }
 
